@@ -18,15 +18,17 @@ Supervised learning refers to algorithms that learn an input-to-output mapping (
 #### Types of Supervised Learning:
 
 1. **Regression:**
-   
+
    1.1 **Linear Regression Model**  
-   1.2 **Polynomial Regression Model**  
-   1.3 **Logistic Regression Model**  
+   1.2 **Multiple Linear Regression Model**  
+   1.3 **Polynomial Linear Regression Model**
+
 2. **Classification:**
-   
-   2.1 **Decision Trees**  
-   2.2 **Random Forests**  
-   2.3 **Support Vector Machines (SVM)**  
-   2.4 **K-Nearest Neighbors (KNN)**  
 
+# Resources for Learning Machine Learning
 
+| S.No | Resource                                                                                                                                                  | Description                                                                       |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1    | [Coursera: Mathematics for Machine Learning and Data Science](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science) | A foundational course covering the essential mathematics for ML and data science. |
+| 2    | [100 Days of ML Code](https://github.com/Avik-Jain/100-Days-of-ML-Code)                                                                                   | A 100-day guide to mastering ML through daily projects and tasks.                 |
+| 3    | [Udemy: Machine Learning A-Z™: Hands-On Python & R In Data Science](https://www.udemy.com/course/machinelearning/learn/lecture/5732728#overview)          | For hands-on practice of Machine Learning concepts and techniques.                |
