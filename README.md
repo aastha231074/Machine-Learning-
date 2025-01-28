@@ -23,7 +23,8 @@ Supervised learning refers to algorithms that learn an input-to-output mapping (
    1.2 **Multiple Linear Regression Model**  
    1.3 **Polynomial Linear Regression Model**  
    1.4 **Support Vector Regression**  
-   1.5 **Decision Tree Regression**
+   1.5 **Decision Tree Regression**  
+   1.6 **Random Forest Regression**
 
 2. **Classification:**
 
