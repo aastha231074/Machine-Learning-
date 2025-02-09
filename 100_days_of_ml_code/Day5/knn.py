@@ -1,0 +1,2 @@
+# 1. KNN is non-parametric (means that it does not make any assumptions on the underlying data distribution)
+# 2. KNN is non-parametric (means that the model dosen't explicitly learn a model. Instead, it chooses to memorize the training instances)
