@@ -29,7 +29,8 @@ Supervised learning refers to algorithms that learn an input-to-output mapping (
 2. **Classification:**
 
    2.1 **Logistic Regression Model**  
-   2.2 **KNN**
+   2.2 **KNN**  
+   2.3 **SVM**
 
 # Resources for Learning Machine Learning
 
