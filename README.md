@@ -33,7 +33,8 @@ Supervised learning refers to algorithms that learn an input-to-output mapping (
    2.3 **SVM**  
    2.4 **Kernel SVM**  
    2.5 **Naive Bayes**  
-   2.6 **Decision Tree**
+   2.6 **Decision Tree**  
+   2.7 **Random Forest**
 
 # Resources for Learning Machine Learning
 
