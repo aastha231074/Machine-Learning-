@@ -30,3 +30,36 @@ Where:
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif" alt="K-means Clustering Example" width="400">
   <figcaption>Fig 2. K-means Clustering Example</figcaption>
 </figure>
+
+## Issue with Random Initialization in K-means
+
+In **standard K-means**, the initial centroids are chosen randomly from the dataset.  
+This can cause problems:
+
+- **Poor convergence**: If initial centroids are too close together, clusters may overlap or converge to suboptimal solutions.
+- **Different results for different runs**: Random starting points can lead to different final clusters each time you run the algorithm.
+- **Slow convergence**: Bad starting points may require more iterations to reach a stable state.
+
+---
+
+## K-means++ Initialization
+
+**K-means++** is an improved method for choosing initial centroids that reduces the likelihood of poor clustering results.
+
+**Algorithm steps**:
+1. Choose the first centroid randomly from the data points.
+2. For each remaining data point, compute the **distance squared** from the nearest chosen centroid.
+3. Choose the next centroid with a probability proportional to this distance squared (points farther from existing centroids are more likely to be chosen).
+4. Repeat until K centroids are chosen.
+5. Proceed with standard K-means iterations.
+
+**Advantages**:
+- Produces more **spread out** initial centroids.
+- Improves clustering quality.
+- Often converges **faster**.
+- Reduces the effect of randomness, giving more consistent results.
+
+<figure style="text-align: center;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/KMeansplusplus.svg/640px-KMeansplusplus.svg.png" alt="K-means++ Initialization" width="400">
+  <figcaption>Fig 4. K-means++ selects spread-out initial centroids</figcaption>
+</figur
